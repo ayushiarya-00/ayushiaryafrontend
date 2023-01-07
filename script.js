@@ -8,14 +8,18 @@ let arr = [
 
 function PrintDeveloperswithMap() {
   //Write your code here
+  arr.map((element)=>{
+  if(element.profession=="developer"){
+    console.lof(element);
+  }
+  });
 }
 
 function PrintDeveloperbyForEach() {
   //Write your code here
   arr.foreach(function(x) {
-    if(profession == 'developer'){
-      e = arr.name;
-      console.log(e);
+    if(x.profession == "developer"){
+      console.log(x);
     }
     
   });
